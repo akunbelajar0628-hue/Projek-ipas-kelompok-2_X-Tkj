@@ -1,0 +1,86 @@
+/* RESET DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f5;
+}
+
+/* HEADER */
+header {
+    background-color: #6b8e7a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: #3b5d4c;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: white;
+    color: #3b5d4c;
+    transform: translateY(-2px);
+}
+
+nav a.active {
+    background: white;
+    color: #3b5d4c;
+}
+
+/* GRID UTAMA */
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom biar pasti keliatan */
+    gap: 15px;
+    padding: 20px;
+}
+
+/* ITEM */
+.item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* GAMBAR */
+.item img {
+    width: 100px; /* kecilin biar rapi */
+    height: auto;
+}
+
+/* TEKS */
+.item p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #4f7c65;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #e6f2ec, #cfe3d8);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #4f7c65, #6b8e7a);
+    color: white;
+    text-align: center;
+    padding: 40px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: #3b5d4c;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover, nav a.active {
+    background: white;
+    color: #3b5d4c;
+}
+
+main {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.video-item {
+    text-align: center;
+}
+
+.video-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #4f7c65;
+}
+
+footer {
+    text-align: center;
+    padding: 18px;
+    background: linear-gradient(135deg, #4f7c65, #6b8e7a);
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+

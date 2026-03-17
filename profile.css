@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f5;
+    line-height: 1.7;
+}
+
+/* Header */
+header {
+    background-color: #6b8e7a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: #3b5d4c;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: white;
+    color: #3b5d4c;
+    transform: translateY(-2px);
+}
+
+nav a.active {
+    background: white;
+    color: #3b5d4c;
+}
+
+/* Section */
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* List nama */
+section li {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/* Gambar */
+section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* Tabel */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #6b8e7a;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #4f7c65;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
